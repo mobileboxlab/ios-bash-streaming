@@ -5,6 +5,11 @@ In short: iOS screen mirroring in five lines of bash.
 
 iOS screen mirroring through a socket interface for streaming real time screen capture data out of iOS devices.
 
+
+![Alt Text](https://github.com/mobileboxlab/ios-bash-streaming/blob/master/smile.gif?raw=true)
+
+
+
 ## Requirements
 
 1. bash, any recent version should work
