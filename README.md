@@ -58,9 +58,9 @@ Yes.
 
 **Limitations?**
 
-Does not do a high framerate (yet?).
+Does not do a high framerate (yet?)
 
 **Does it work on Windows?**
 
-MMMMM...yes.
+Mmm... maybe.
 
