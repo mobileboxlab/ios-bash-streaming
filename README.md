@@ -2,6 +2,7 @@
 ## What?
 
 In short: iOS screen mirroring in five lines of bash.
+
 iOS screen mirroring through a socket interface for streaming real time screen capture data out of iOS devices.
 
 ## Requirements
@@ -29,6 +30,9 @@ Run the below command to start the service (you need to provide the device id):
 ```bash
 websocketd --port=8080 ./smile.sh DEVICE-ID
 ```
+
+Replace in **smile.html**  with the **IP** and **PORT** where websocketd server is running. 
+
 
 Open the **smile.html** file. You will see the connected device
 
