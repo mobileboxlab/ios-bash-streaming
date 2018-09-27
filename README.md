@@ -64,3 +64,11 @@ Does not do a high framerate (yet?)
 
 Mmm... maybe.
 
+
+## Contribution
+
+Any ideas are welcome. Feel free to submit any issues or pull requests.
+
+---
+**ios-bash-streaming** is developed and maintained by [Mobilebox](http://mobileboxlab.com) team.
+
