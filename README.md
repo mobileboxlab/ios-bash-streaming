@@ -46,7 +46,7 @@ Open the **smile.html** file. You will see the connected device
 
 **Is this for real?**
 
-Yes, this is a real iOS screen mirroring in five lines of bash
+Yes. It’s not big, and it’s not clever but this is a real iOS screen mirroring in five lines of bash.
 
 **How do I install it?**
 
