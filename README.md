@@ -55,7 +55,7 @@ Yes.
 
 **Limitations?**
 
-Does not do a high framerate
+Does not do a high framerate.
 
 **Does it work on Windows?**
 
