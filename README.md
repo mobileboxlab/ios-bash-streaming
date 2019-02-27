@@ -1,6 +1,3 @@
-
-## What?
-
 ![Bryan](http://open.mobileboxlab.com/img/ios-bash.gif)
 
 ___
