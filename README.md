@@ -1,10 +1,10 @@
 
 ## What?
 
-In short: iOS screen mirroring in five lines of bash.
+![Bryan](http://open.mobileboxlab.com/img/ios-bash.gif)
 
+___
 iOS screen mirroring through a socket interface for streaming real time screen capture data out of iOS devices.
-
 
 ![Alt Text](https://github.com/mobileboxlab/ios-bash-streaming/blob/master/smile.gif?raw=true)
 
