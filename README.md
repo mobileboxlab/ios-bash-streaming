@@ -1,4 +1,4 @@
-![Bryan](http://open.mobileboxlab.com/img/ios-bash.gif)
+![Bryan](http://open.mobileboxlab.com/img/ios-screen.gif)
 
 ___
 iOS screen mirroring through a socket interface for streaming real time screen capture data out of iOS devices.
