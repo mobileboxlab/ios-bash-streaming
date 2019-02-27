@@ -13,7 +13,7 @@ iOS screen mirroring through a socket interface for streaming real time screen c
 ## Requirements
 
 1. bash, any recent version should work
-2. Install [imagemagick](http://macappstore.org/imagemagick/) 
+2. Install [imagemagick](http://macappstore.org/imagemagick/)
 3. Install [websocketd](https://github.com/joewalnes/websocketd)
 4. Install [libimobiledevice](http://macappstore.org/libimobiledevice/)
 5. [Lightning cable](https://en.wikipedia.org/wiki/Lightning_(connector))
@@ -33,13 +33,10 @@ instruments -s devices
 Run the below command to start the service (you need to provide the device id):
 
 ```bash
-websocketd --port=8080 ./smile.sh DEVICE-ID
+websocketd --port=9231 --staticdir=web sh smile.sh DEVICE-ID
 ```
 
-Replace in **smile.html**  with the **IP** and **PORT** where websocketd server is running. 
-
-
-Open the **smile.html** file. You will see the connected device
+Go to [http://127.0.0.1:9231/](http://127.0.0.1:9231/) You will see the connected device.
 
 
 ## Frequently Asked Questions
@@ -50,7 +47,7 @@ Yes. It’s not big, and it’s not clever but this is a real iOS screen mirrori
 
 **How do I install it?**
 
-You don't install it. Copy the file *smile.sh* to wherever you want and run it.
+You don't install it.
 
 **Does it support websockets?**
 
@@ -58,7 +55,7 @@ Yes.
 
 **Limitations?**
 
-Does not do a high framerate (yet?)
+Does not do a high framerate
 
 **Does it work on Windows?**
 
@@ -69,6 +66,7 @@ Mmm... maybe.
 
 Any ideas are welcome. Feel free to submit any issues or pull requests.
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 ---
 **ios-bash-streaming** is developed and maintained by [Mobilebox](http://mobileboxlab.com) team.
-
