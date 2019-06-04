@@ -1,7 +1,7 @@
 function WebSocketTest() {
       if ("WebSocket" in window) {
          console.log(location.host);
-         var ws = new ReconnectingWebSocket('ws://' + location.host + '/');
+         var ws = new ReconnectingWebSocket('wss://' + location.host + '/');
          ws.onopen = function() {
              console.log("Open");
          };
