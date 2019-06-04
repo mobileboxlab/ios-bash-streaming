@@ -35,6 +35,17 @@ websocketd --port=9231 --staticdir=web sh smile.sh DEVICE-ID
 
 Go to [http://127.0.0.1:9231/](http://127.0.0.1:9231/) You will see the connected device.
 
+## Share Your Screen with Others
+
+Optionally you can share your screen with others through [Serveo](https://serveo.net) that expose the local server to the internet without installation, no signup and free!
+
+Try it! Copy and paste this into your terminal:
+
+```bash
+ssh -R 80:localhost:9231 serveo.net
+```
+
+The **-R** option instructs your SSH client to request port forwarding from the server and proxy requests to the specified host and port (usually localhost). A subdomain of serveo.net will be assigned to forward HTTP traffic.
 
 ## Frequently Asked Questions
 
